@@ -15,7 +15,7 @@ body {
 }
 
  header {
- background-image: url(file:///C:/Users/sehri/Desktop/Portfolio-Sehrish-Khan/images/istockphoto-1290492381-170667a.jpg);
+ background-image: url(file:///C:/Users/sehri/Desktop/Portfolio-Sehrish-Khan/images/headerimage.jpg);
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
@@ -30,12 +30,12 @@ body {
  justify-content: flex-start;
  align-items: center;
  position: absolute;
- top: 3%;
+ top: 8%;
  left: 14%;
- color: black;
- font-size: 60px;
- font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- text-shadow: 5px 6px 7px;
+ color: rgb(221, 216, 245);
+ font-size: 70px;
+ font-family:'Times New Roman', Times, serif;
+ text-shadow: 10px 12px 14px;
 }
 /* added the profile picture, positioned it absolute and set it in column */
 .profilepic {
@@ -48,8 +48,6 @@ position: absolute;
  flex-direction: row;
  justify-content: center;
  align-items: center;
- border-color: #0a0909;
- border-style: groove;
 }
 /* added the position relative and placed in the right corner of the header, styled with text-shadow */
  header h2{
@@ -58,7 +56,7 @@ position: absolute;
  left: 81%;
  font-size: 40px;
  font-style: italic;
- color: black;
+ color: white;
  text-shadow: 10px 12px 14px;
  
  
@@ -85,7 +83,7 @@ header nav button{
  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset, 0 1px 2px rgba(0, 0, 0, 0.3);
  color: #333;
  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- font-size: 16px;
+ font-size: 20px;
  font-weight: bold;
  padding: 10px 15px;
  text-align: center;
@@ -121,9 +119,10 @@ header nav a:hover {
     flex-direction: row;
     flex-wrap: wrap;
   }
-    /* styled .service h2 with boarder, margin and padding */
+  /* styled .service h2 with boarder, margin and padding */
  .service h2 {
     border-right: 5px solid black;
+    color: #0a0909;
     padding-right: 10px;
     margin-right: 20px;
     margin-left: 10px;
@@ -134,6 +133,7 @@ header nav a:hover {
   .service div {
     flex: 1;
     font-size: 30px;
+    color: #0a0909;
     margin-left: 50px;
     width:75%;
   }
@@ -156,26 +156,139 @@ header nav a:hover {
     border-style: groove;
     border-color: black;
     border-radius: 2em;
-    background-color: black;
-    opacity: 70%;
+   color: rgb(250, 4, 4);
+   font-weight: bold;
   }
+  /* styled project-itemh3 with border font size and padding */
    .project-item h3 {
-    border-style: double;
-    border-color: rgb(61, 100, 116);
+    border  : 3px solid black;
+    border-color: black;
     margin-top: 0;
     padding: 20px;
     padding-right: 20%;
     font-size: 30px;
   }
+  /* styled project-item p with border style, border color and padding */
   .project-item p {
     border-style: double;
-    border-color: rgb(61, 100, 116);
+    border-color: black;
     padding: 20px;
-    font-size: 20px;
+    font-size: 24px;
   }
-  .project-item div {
-    background-image: url(file:///C:/Users/sehri/Desktop/Portfolio-Sehrish-Khan/images/istockphoto-1290492381-170667a.jpg);
-    }
+  /* added image to project 1 flexbox */
+  .project-item:first-of-type {
+    position: relative;
+  }
+  
+  .project-item:first-of-type::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(file:///C:/Users/sehri/Desktop/Portfolio-Sehrish-Khan/images/Project.png);
+    background-size: contain;
+    background-position: center;
+    z-index: -1;
+    border-radius: 2em;
+    border-color: #0a0909;
+  }
+  /* added image to project 2 felx layout */
+  .project-item:nth-of-type(2) {
+    position: relative;
+  }
+  .project-item:nth-of-type(2)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(file:///C:/Users/sehri/Desktop/Portfolio-Sehrish-Khan/images/photo-1572177812156-58036aae439c.jpg);
+    background-size: contain;
+    background-position: center;
+    z-index: -1;
+    border-radius: 2em;
+    border-color: #0a0909;
+  }
+  /* added image t0 project 3 with nth-of -type selector */
+  .project-item:nth-of-type(3) {
+    position: relative;
+  }
+  .project-item:nth-of-type(3)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(file:///C:/Users/sehri/Desktop/Portfolio-Sehrish-Khan/images/Project-management-software-with-client-portal.webp);
+    background-size: contain;
+    background-position: center;
+    z-index: -1;
+    border-radius: 2em;
+    border-color: #0a0909;
+  }
+  /* added image t0 project 4 with nth-of -type selector */
+  .project-item:nth-of-type(4) {
+    position: relative;
+  }
+  .project-item:nth-of-type(4)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(file:///C:/Users/sehri/Desktop/Portfolio-Sehrish-Khan/images/images-2.jpg);
+    background-size: contain;
+    background-position: center;
+    z-index: -1;
+    border-radius: 2em;
+    border-color: #0a0909;
+  }
+  /* added image t0 project 5 with nth-of -type selector */
+  .project-item:nth-of-type(5) {
+    position: relative;
+  }
+  .project-item:nth-of-type(5)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(file:///C:/Users/sehri/Desktop/Portfolio-Sehrish-Khan/images/5137774.webp);
+    background-size: contain;
+    background-position: center;
+    z-index: -1;
+    border-radius: 2em;
+    border-color: #0a0909;
+  }
+  /* added image t0 project 6 with nth-of -type selector */
+  .project-item:nth-of-type(6) {
+    position: relative;
+  }
+  .project-item:nth-of-type(6)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(file:///C:/Users/sehri/Desktop/Portfolio-Sehrish-Khan/images/5137771.jpg);
+    background-size: contain;
+    background-position: center;
+    z-index: -1;
+    border-radius: 2em;
+    border-color: #0a0909;
+  }
+  /* by using span element in HTML changed the color of the email Ids into blue */
+  .clr {
+    color: blue;
+  }
+  
   /* style footer with border */
 footer {
     border-style: groove;
