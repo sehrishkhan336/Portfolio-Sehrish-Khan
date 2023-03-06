@@ -1,0 +1,186 @@
+@media (min-width: 768px){
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    color: rgb(185, 187, 189);
+    background-image: url(file:///C:/Users/sehri/Desktop/Portfolio-Sehrish-Khan/images/R.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     
+}
+
+ header {
+ background-image: url(file:///C:/Users/sehri/Desktop/Portfolio-Sehrish-Khan/images/istockphoto-1290492381-170667a.jpg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ border-style: groove;
+ border-color: aliceblue;
+ box-shadow: lightslategray;
+ height: 700px;
+    
+ }
+ header h1 {
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ position: absolute;
+ top: 3%;
+ left: 14%;
+ color: black;
+ font-size: 60px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ text-shadow: 5px 6px 7px;
+}
+/* added the profile picture, positioned it absolute and set it in column */
+.profilepic {
+position: absolute;
+ top: 5%;
+ left: 5%;
+ width: 200px;
+ height: 200px;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ border-color: #0a0909;
+ border-style: groove;
+}
+/* added the position relative and placed in the right corner of the header, styled with text-shadow */
+ header h2{
+ position: relative;
+ top: 70%;
+ left: 81%;
+ font-size: 40px;
+ font-style: italic;
+ color: black;
+ text-shadow: 10px 12px 14px;
+ 
+ 
+}
+/* nav style with flex */
+header nav ul {
+margin-top: 20%;
+ padding: 10px;
+ list-style-type: none;
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-end;
+ 
+}
+/* ul li style  */
+header nav ul li{
+ display: inline-block;
+}
+/* styled buttons with border, font styling and text-transformation */
+header nav button{
+  background-color: #f2f2f2;
+ border: 1px solid #c4c4c4;
+ border-radius: 5px;
+ box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset, 0 1px 2px rgba(0, 0, 0, 0.3);
+ color: #333;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 16px;
+ font-weight: bold;
+ padding: 10px 15px;
+ text-align: center;
+ text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+ text-transform: uppercase;
+ transition: all 0.2s ease-in-out;
+ cursor: pointer;
+ }
+      /* style with hover on */
+ header nav button:hover {
+ background-color: #e0e0e0;
+ border-color: #b4b4b4;
+ box-shadow: 0 1px 0 rgba(29, 24, 24, 0.5) inset, 0 1px 2px rgba(81, 78, 78, 0.3);
+ color: #0a0909;
+ cursor: grab;
+ }  
+
+/* a style with inline-block and padding */
+header nav a {
+ display: inline-block;
+ text-align: center;
+ padding: 10px 10px;
+}
+  /*added hover style and grab cursor  */
+header nav a:hover {
+ background-color: black;
+ box-shadow: darkgray;
+ cursor: grab;
+}
+/* styled .service class with flex */
+.service {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+    /* styled .service h2 with boarder, margin and padding */
+ .service h2 {
+    border-right: 5px solid black;
+    padding-right: 10px;
+    margin-right: 20px;
+    margin-left: 10px;
+    font-size: 50px;
+    width:  15%;
+  }
+  /* styled .service div with flex , margin and padding */
+  .service div {
+    flex: 1;
+    font-size: 30px;
+    margin-left: 50px;
+    width:75%;
+  }
+    /* style .projects class with flex */
+  .projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    margin-left: 15%;
+  }
+  /* styled project-item with display, margin, border style and color */
+  .project-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 45px;
+    margin: 51px;
+    padding: 50px;
+    border-style: groove;
+    border-color: black;
+    border-radius: 2em;
+    background-color: black;
+    opacity: 70%;
+  }
+   .project-item h3 {
+    border-style: double;
+    border-color: rgb(61, 100, 116);
+    margin-top: 0;
+    padding: 20px;
+    padding-right: 20%;
+    font-size: 30px;
+  }
+  .project-item p {
+    border-style: double;
+    border-color: rgb(61, 100, 116);
+    padding: 20px;
+    font-size: 20px;
+  }
+  .project-item div {
+    background-image: url(file:///C:/Users/sehri/Desktop/Portfolio-Sehrish-Khan/images/istockphoto-1290492381-170667a.jpg);
+    }
+  /* style footer with border */
+footer {
+    border-style: groove;
+    border-color: rgb(39, 41, 42);
+    box-shadow: lightslategray;
+    text-align: center;
+}
+}
