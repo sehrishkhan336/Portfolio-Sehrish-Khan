@@ -159,10 +159,17 @@ header nav a:hover {
    color: rgb(250, 4, 4);
    font-weight: bold;
   }
+   .project-item:first-child{
+    display: inline-block;
+    padding-right: 50%;
+    padding-top: 10%;
+   
+  }
   /* styled project-itemh3 with border font size and padding */
    .project-item h3 {
     border  : 3px solid black;
     border-color: black;
+    background-color: gray;
     margin-top: 0;
     padding: 20px;
     padding-right: 20%;
@@ -172,12 +179,14 @@ header nav a:hover {
   .project-item p {
     border-style: double;
     border-color: black;
+    background-color: gray;
     padding: 20px;
     font-size: 24px;
   }
   /* added image to project 1 flexbox */
   .project-item:first-of-type {
     position: relative;
+    
   }
   
   .project-item:first-of-type::before {
@@ -188,7 +197,8 @@ header nav a:hover {
     width: 100%;
     height: 100%;
     background-image: url(file:///C:/Users/sehri/Desktop/Portfolio-Sehrish-Khan/images/Project.png);
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     z-index: -1;
     border-radius: 2em;
