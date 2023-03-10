@@ -6,7 +6,7 @@ Portfolio of Sehrish Khan is created to present the professional accomplishments
 3. Contact me
 4. Resume
 
-## Project Synopsis:
+## DESCRIPTION:
 The purpose of this project is to create a website Portfolio from the start and design with CSS Flexbox. Portfolio Sehrish Khan is a website that shares the information about the candidate , projects that are done and/or will be accomplished in future, Contact details and Resume.
 
 ## OBJECTIVES:
@@ -27,6 +27,8 @@ Google Chrome is required to be installed in order to use this project. The proj
 ## USAGE:
 The objective is to build a Portfolio website that shares the projects accomplished, contact information, resume and some information about the candidate.
 
+## SCREENSHOT OF THE WEBSITE:
+
 ![alt text](./images/Web%20capture-Final.jpeg)
 
 ## DEPENDENCIES:
@@ -37,6 +39,9 @@ This project is licensed under the MIT license. See the LICENSE.md file for more
 
 ## CONTACT INFORMATION:
 If you have any questions or feedback about this project, you can contact the project owner [Sehrish Khan, contact information: sehrishkhan336@gmail.com].
+
+## LINK TO Deployed Website:
+https://sehrishkhan336.github.io/Portfolio-Sehrish-Khan/
 
 ## REFERENCES AND LINKS:
 
