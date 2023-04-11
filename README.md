@@ -29,7 +29,7 @@ The objective is to build a Portfolio website that shares the projects accomplis
 
 ## SCREENSHOT OF THE WEBSITE:
 
-![alt text](./images/Web%20capture-Final.jpeg)
+![alt text](./images/)
 
 ## DEPENDENCIES:
 This project has no external dependencies. All necessary files are included in the project.
