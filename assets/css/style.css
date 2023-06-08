@@ -7,7 +7,7 @@
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       background-color: black;
       color: rgb(185, 187, 189);
-      background-image: url('../../images/R.jpg');
+      background-image: url('../../images/istockphoto-1290492381-170667a\ \(1\).jpg');
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
@@ -15,7 +15,7 @@
   }
   
    header {
-   background-image: url('../../images/headerimage.jpg');
+   background-image: url('../../images/Background.jpg');
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -171,6 +171,7 @@
       border  : 3px solid black;
       border-color: black;
       background-color: gray;
+      border-radius: 2em;
       margin-top: 0;
       padding: 20px;
       padding-right: 20%;
@@ -181,6 +182,7 @@
       border-style: double;
       border-color: black;
       background-color: gray;
+      border-radius: 2em;
       padding: 20px;
       font-size: 24px;
     }
@@ -234,7 +236,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background-image: url('../../images/Project-management-software-with-client-portal.webp');
+      background-image: url('../../images/OIP.jpg');
       background-size: contain;
       background-position: center;
       z-index: -1;
@@ -252,7 +254,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background-image: url('../../images/images-2.jpg');
+      background-image: url('../../images/OIP1.jpg');
       background-size: contain;
       background-position: center;
       z-index: -1;
@@ -270,7 +272,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background-image: url('../../images/5137774.webp');
+      background-image: url('../../images/OIP.jpg');
       background-size: contain;
       background-position: center;
       z-index: -1;
@@ -288,7 +290,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background-image: url('../../images/5137771.jpg');
+      background-image: url('../../images/OIP.jpg');
       background-size: contain;
       background-position: center;
       z-index: -1;
