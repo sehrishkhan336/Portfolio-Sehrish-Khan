@@ -1,0 +1,313 @@
+@media (min-width: 768px){
+
+  body {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      background-color: black;
+      color: rgb(185, 187, 189);
+      background-image: url('../../images/istockphoto-1290492381-170667a\ \(1\).jpg');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+       
+  }
+  
+   header {
+   background-image: url('../../images/Background.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-style: groove;
+   border-color: aliceblue;
+   box-shadow: lightslategray;
+   height: 700px;
+      
+   }
+   header h1 {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   position: absolute;
+   top: 8%;
+   left: 14%;
+   color: rgb(221, 216, 245);
+   font-size: 70px;
+   font-family:'Times New Roman', Times, serif;
+   text-shadow: 10px 12px 14px;
+  }
+  /* added the profile picture, positioned it absolute and set it in column */
+  .profilepic {
+  position: absolute;
+   top: 5%;
+   left: 5%;
+   width: 200px;
+   height: 200px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+  }
+  /* added the position relative and placed in the right corner of the header, styled with text-shadow */
+  header h2 {
+    position: relative;
+    top: 60%;
+    float: right;
+    /* left: 81%; */
+    font-size: 40px;
+    font-style: italic;
+    color: white;
+    text-shadow: 10px 12px 14px;
+    margin-right: 25px;
+  }
+  
+  /* nav style with flex */
+  header nav ul {
+  margin-top: 20%;
+   padding: 10px;
+   list-style-type: none;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   
+  }
+  /* ul li style  */
+  header nav ul li{
+   display: inline-block;
+  }
+  /* styled buttons with border, font styling and text-transformation */
+  header nav button{
+    background-color: #f2f2f2;
+   border: 1px solid #c4c4c4;
+   border-radius: 5px;
+   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset, 0 1px 2px rgba(0, 0, 0, 0.3);
+   color: #333;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 10px 15px;
+   text-align: center;
+   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+   text-transform: uppercase;
+   transition: all 0.2s ease-in-out;
+   cursor: pointer;
+   }
+        /* style with hover on */
+   header nav button:hover {
+   background-color: #e0e0e0;
+   border-color: #b4b4b4;
+   box-shadow: 0 1px 0 rgba(29, 24, 24, 0.5) inset, 0 1px 2px rgba(81, 78, 78, 0.3);
+   color: #0a0909;
+   cursor: grab;
+   }  
+  
+  /* a style with inline-block and padding */
+  header nav a {
+   display: inline-block;
+   text-align: center;
+   padding: 10px 10px;
+  }
+    /*added hover style and grab cursor  */
+  header nav a:hover {
+   background-color: black;
+   box-shadow: darkgray;
+   cursor: grab;
+  }
+  /* styled .service class with flex */
+  .service {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    /* styled .service h2 with boarder, margin and padding */
+   .service h2 {
+      border-right: 5px solid black;
+      color: #0a0909;
+      padding-right: 10px;
+      margin-right: 20px;
+      margin-left: 10px;
+      font-size: 50px;
+      width:  15%;
+    }
+    /* styled .service div with flex , margin and padding */
+    .service div {
+      flex: 1;
+      font-size: 30px;
+      color: #0a0909;
+      margin-left: 50px;
+      width:75%;
+    }
+      /* style .projects class with flex */
+    .projects {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      flex-basis: 50%;
+      margin-left: 15%;
+    }
+    /* styled project-item with display, margin, border style and color */
+    .project-item {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-left: 45px;
+      margin: 51px;
+      padding: 50px;
+      border-style: groove;
+      border-color: black;
+      border-radius: 2em;
+     color: rgb(250, 4, 4);
+     font-weight: bold;
+    }
+     .project-item:first-child{
+      display: inline-block;
+      padding-right: 50%;
+      padding-top: 10%;
+     
+    }
+    /* styled project-itemh3 with border font size and padding */
+     .project-item h3 {
+      border  : 3px solid black;
+      border-color: black;
+      background-color: gray;
+      border-radius: 2em;
+      margin-top: 0;
+      padding: 20px;
+      padding-right: 20%;
+      font-size: 30px;
+    }
+    /* styled project-item p with border style, border color and padding */
+    .project-item p {
+      border-style: double;
+      border-color: black;
+      background-color: gray;
+      border-radius: 2em;
+      padding: 20px;
+      font-size: 24px;
+    }
+    /* added image to project 1 flexbox */
+    .project-item:first-of-type {
+      position: relative;
+      
+    }
+    
+    .project-item:first-of-type::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('../../images/R.jpeg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      z-index: -1;
+      border-radius: 2em;
+      border-color: #0a0909;
+    }
+    /* added image to project 2 felx layout */
+    .project-item:nth-of-type(2) {
+      position: relative;
+    }
+    .project-item:nth-of-type(2)::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('../../images/splash-image.png');
+      background-size: contain;
+      background-position: center;
+      z-index: -1;
+      border-radius: 2em;
+      border-color: #0a0909;
+    }
+    /* added image t0 project 3 with nth-of -type selector */
+    .project-item:nth-of-type(3) {
+      position: relative;
+    }
+    .project-item:nth-of-type(3)::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('../../images/OIP.jpg');
+      background-size: contain;
+      background-position: center;
+      z-index: -1;
+      border-radius: 2em;
+      border-color: #0a0909;
+    }
+    /* added image t0 project 4 with nth-of -type selector */
+    .project-item:nth-of-type(4) {
+      position: relative;
+    }
+    .project-item:nth-of-type(4)::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('../../images/OIP1.jpg');
+      background-size: contain;
+      background-position: center;
+      z-index: -1;
+      border-radius: 2em;
+      border-color: #0a0909;
+    }
+    /* added image t0 project 5 with nth-of -type selector */
+    .project-item:nth-of-type(5) {
+      position: relative;
+    }
+    .project-item:nth-of-type(5)::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('../../images/OIP.jpg');
+      background-size: contain;
+      background-position: center;
+      z-index: -1;
+      border-radius: 2em;
+      border-color: #0a0909;
+    }
+    /* added image t0 project 6 with nth-of -type selector */
+    .project-item:nth-of-type(6) {
+      position: relative;
+    }
+    .project-item:nth-of-type(6)::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('../../images/OIP.jpg');
+      background-size: contain;
+      background-position: center;
+      z-index: -1;
+      border-radius: 2em;
+      border-color: #0a0909;
+    }
+    /* by using span element in HTML changed the color of the email Ids into blue */
+    .clr {
+      color: blue;
+    }
+    
+    /* style footer with border */
+  footer {
+      border-style: groove;
+      border-color: rgb(39, 41, 42);
+      box-shadow: lightslategray;
+      text-align: center;
+  }
+  }
+  
